@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+}
+
+select, button {
+  display: block;
+  margin: 10px 0;
+}
+
+#weather {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+    </style>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Weather App</h1>
+  <label for="city">Select a city:</label>
+  <select id="city">
+    <option value="city1">City 1</option>
+    <option value="city2">City 2</option>
+    <!-- Add more cities here -->
+  </select>
+  <button onclick="getWeather()">Get Weather</button>
+  <div id="weather"></div>
+
+  <script src="index.html"></script>
+</body>
+</html>
